@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+}
+
+header {
+  background-color: rgb(10 28 40);
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.logo {
+  color: #d16f2b;
+  font-size: 2.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #fdfdfd;
+  border-radius: 100%;
+  padding: 8px;
+}
+
+.navbar {
+  height: 10vh;
+  width: 100%;
+  max-width: 1200px;
+  /* Adjust max-width as needed */
+  margin: 0 auto;
+  /* Center the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  color: #fdfdfd;
+}
+
+.navbar ul li {
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+.home {
+  height: calc(100vh - 10vh);
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
