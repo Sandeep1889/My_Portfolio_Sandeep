@@ -1,0 +1,49 @@
+.form-container {
+  min-width: 320px; /* Ensures the container does not shrink too much on mobile devices */
+  max-width: 500px; /* Limits the width on larger screens for better readability */
+  margin: auto; /* Centers the form on the page */
+  padding: 20px; /* Adds spacing inside the container for better aesthetics */
+  background-color: #f8f9fa; /* Light grey background for the form area */
+  border-radius: 8px; /* Rounded corners for the form container */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around the container for depth */
+}
+
+.form-label {
+  font-weight: bold; /* Makes label text bold */
+  color: #333; /* Dark grey color for better readability */
+}
+
+.form-control {
+  min-width: 280px; /* Minimum width for input fields */
+  min-height: 40px; /* Minimum height for input fields */
+  padding: 10px; /* Padding inside the input fields for text alignment */
+  margin-top: 5px; /* Space between label and input field */
+  border: 1px solid #afadad; /* Light grey border for the input fields */
+  border-radius: 5px; /* Slightly rounded corners for input fields */
+}
+
+.form-control:focus {
+  border-color: #0056b3; /* Changes border color to blue when focused */
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(0, 86, 179, 0.6); /* Adds a focus shadow around the field */
+}
+
+textarea.form-control {
+  min-height: 100px; /* Minimum height for textarea to accommodate more text */
+  resize: vertical; /* Allows the textarea to be resized vertically */
+}
+
+button.btn-dark {
+  width: 100%; /* Makes the button take the full width of its container */
+  min-height: 45px; /* Minimum height for the button, making it easier to click */
+  padding: 10px; /* Padding inside the button for better text alignment */
+  border: none; /* No border for a cleaner look */
+  background-color: #000000; /* Primary blue background color for the button */
+  color: white; /* White text color for contrast */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Cursor changes to pointer to indicate it's clickable */
+}
+
+button.btn-dark:hover {
+  background-color: #36383a; /* Darker blue color on hover for visual feedback */
+}

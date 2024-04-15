@@ -5,160 +5,796 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bs-brain@2.0.3/components/footers/footer-2/assets/css/footer-2.css"
+    />
   </head>
   <body>
+    <!-- NAVBAR SECTION -->
     <header>
       <div class="navbar">
-        <h1 class="logo">SK</h1>
+        <div class="logo">SK</div>
         <nav>
           <ul>
-            <li><a href="#home">HOME</a></li>
-            <li><a href="">EDUCATION</a></li>
-            <li><a href="">SKILLS</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">BLOGS</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="/contact">CONTACT</a></li>
+            <li><a href="#home-section">HOME</a></li>
+            <li><a href="#education-section">EDUCATION</a></li>
+            <li><a href="#skills-section">SKILLS</a></li>
+            <li><a href="#projects-section">PROJECTS</a></li>
+            <li><a href="#services-section">SERVICES</a></li>
+            <li><a href="#blogs-section">BLOGS</a></li>
+            <li><a href="#contact-section">CONTACT</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>
-      <div class="home"></div>
-      <section>
-        <div class="education">
-          <h1>EDUCATION</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            id assumenda cumque in, quaerat officiis maiores dolor tenetur
-            corrupti labore nesciunt recusandae soluta, corporis repellat.
-            Praesentium quod ut odio eos! Ut iste corrupti dicta facilis est
-            veritatis neque a. Laboriosam officia molestias quae expedita dolor
-            dignissimos? Beatae laboriosam dolorem obcaecati fugiat nesciunt
-            sunt accusamus repellat sapiente alias, dolores illum in. Tempora
-            distinctio soluta ad, explicabo quidem quia possimus asperiores
-            quaerat, accusamus
-          </p>
-        </div>
-      </section>
 
-      <section>
-        <div class="skills">
-          <h1>SKILLS</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            id assumenda cumque in, quaerat officiis maiores dolor tenetur
-            corrupti labore nesciunt recusandae soluta, corporis repellat.
-            Praesentium quod ut odio eos! Ut iste corrupti dicta facilis est
-            veritatis neque a. Laboriosam officia molestias quae expedita dolor
-            dignissimos? Beatae laboriosam dolorem obcaecati fugiat nesciunt
-            sunt accusamus repellat sapiente alias, dolores illum in. Tempora
-            distinctio soluta ad, explicabo quidem quia possimus asperiores
-            quaerat, accusamus
-          </p>
-        </div>
-      </section>
+    <!-- HOME SECTION -->
 
-      <section>
-        <div class="projects">
-          <h1>PROJECTS</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            id assumenda cumque in, quaerat officiis maiores dolor tenetur
-            corrupti labore nesciunt recusandae soluta, corporis repellat.
-            Praesentium quod ut odio eos! Ut iste corrupti dicta facilis est
-            veritatis neque a. Laboriosam officia molestias quae expedita dolor
-            dignissimos? Beatae laboriosam dolorem obcaecati fugiat nesciunt
-            sunt accusamus repellat sapiente alias, dolores illum in. Tempora
-            distinctio soluta ad, explicabo quidem quia possimus asperiores
-            quaerat, accusamus
-          </p>
-        </div>
-      </section>
+    <div id="home-section" class="home">
+      <div class="my_image">
+        <img src="images/mypic.png" alt=" Sandeep image not upload" />
+      </div>
+      <div class="home-content">
+        <h4>Hello, It's Me</h4>
+        <h1>SANDEEP KUMAR</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          "Welcome to my portfolio! I am a Computer Science graduate passionate
+          about Full-Stack Web Development, proficient in C++, JavaScript,
+          React.js, Node.js, MongoDB, and SQL. I combine technical expertise
+          with a creative mindset, focusing on delivering efficient and
+          innovative solutions. My strong communication and interpersonal skills
+          enhance my technical proficiency, enabling me to excel under pressure.
+          Explore my portfolio to discover how I seamlessly integrate technical
+          skills with creative innovation."
+        </p>
 
-      <section>
-        <div class="services">
-          <h1>SERVICES</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            id assumenda cumque in, quaerat officiis maiores dolor tenetur
-            corrupti labore nesciunt recusandae soluta, corporis repellat.
-            Praesentium quod ut odio eos! Ut iste corrupti dicta facilis est
-            veritatis neque a. Laboriosam officia molestias quae expedita dolor
-            dignissimos? Beatae laboriosam dolorem obcaecati fugiat nesciunt
-            sunt accusamus repellat sapiente alias, dolores illum in. Tempora
-            distinctio soluta ad, explicabo quidem quia possimus asperiores
-            quaerat, accusamus
-          </p>
+        <!-- Home PAGE SOCIAL MEDIA ICONS -->
+        <div class="home-sci">
+          <a
+            href="https://www.linkedin.com/in/sandeep-kumar-085789230/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/Sandeep1889" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.facebook.com/sandeepkumar1889" target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/sandeepkk1889?igsh=anI3OXFjN3Vudnkx"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://twitter.com/sandeep71184962" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
         </div>
-      </section>
 
-      <section>
-        <div class="blogs">
-          <h1>BLOGS</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            id assumenda cumque in, quaerat officiis maiores dolor tenetur
-            corrupti labore nesciunt recusandae soluta, corporis repellat.
-            Praesentium quod ut odio eos! Ut iste corrupti dicta facilis est
-            veritatis neque a. Laboriosam officia molestias quae expedita dolor
-            dignissimos? Beatae laboriosam dolorem obcaecati fugiat nesciunt
-            sunt accusamus repellat sapiente alias, dolores illum in. Tempora
-            distinctio soluta ad, explicabo quidem quia possimus asperiores
-            quaerat, accusamus
-          </p>
+        <!-- HOME PAGE ABOUT && RESUME BOTTONS -->
+        <div>
+          <a href="#about-section" class="btn-box"> More About Me</a>
+          <a
+            href="http://localhost:5500/Resume.pdf"
+            target="_blank"
+            class="btn-box"
+          >
+            My Resume</a
+          >
         </div>
-      </section>
+      </div>
+    </div>
 
-      <section>
-        <div class="about">
-          <h1>ABOUT</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            id assumenda cumque in, quaerat officiis maiores dolor tenetur
-            corrupti labore nesciunt recusandae soluta, corporis repellat.
-            Praesentium quod ut odio eos! Ut iste corrupti dicta facilis est
-            veritatis neque a. Laboriosam officia molestias quae expedita dolor
-            dignissimos? Beatae laboriosam dolorem obcaecati fugiat nesciunt
-            sunt accusamus repellat sapiente alias, dolores illum in. Tempora
-            distinctio soluta ad, explicabo quidem quia possimus asperiores
-            quaerat, accusamus
-          </p>
-        </div>
-      </section>
+    <!-- EDUCATION SECTION HERE -->
+    <section>
+      <div
+        id="education-section"
+        class="education"
+        style="padding-left: 50px; padding-right: 50px"
+      >
+        <h1 class="text-center mt-5 shadow mb-4 fw-bold">EDUCATION</h1>
 
-      <section>
-        <div class="contact">
-          <h1>CONTACT</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            id assumenda cumque in, quaerat officiis maiores dolor tenetur
-            corrupti labore nesciunt recusandae soluta, corporis repellat.
-            Praesentium quod ut odio eos! Ut iste corrupti dicta facilis est
-            veritatis neque a. Laboriosam officia molestias quae expedita dolor
-            dignissimos? Beatae laboriosam dolorem obcaecati fugiat nesciunt
-            sunt accusamus repellat sapiente alias, dolores illum in. Tempora
-            distinctio soluta ad, explicabo quidem quia possimus asperiores
-            quaerat, accusamus
-          </p>
+        <div class="row row-cols-1 row-cols-md-3 mb-5 g-5">
+          <div class="col">
+            <div class="card h-100 shadow">
+              <!-- Added shadow class here -->
+              <img
+                src="images/cu.png"
+                class="card-img-top"
+                alt="Image Not Found"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">GRADUATION - (2020 - 2024)</h5>
+                <h6 class="card-title fw-bold">
+                  Chandigarh University, Mohali Punjab
+                </h6>
+                <h6 class="card-title fw-bold">
+                  Bachelor of Engineering - Computer Science Engineering
+                </h6>
+                <h6 class="card-title fw-bold">CGPA:- 8.02</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <!-- Added shadow class here -->
+              <img
+                src="images/12thschoolimg.jpg"
+                class="card-img-top"
+                alt="Image Not Found"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">
+                  INTER-MEDIATE - (2017 - 2018)
+                </h5>
+                <h6 class="card-title fw-bold">
+                  Buddh Vidhya Peeth Inter College, Birdpur Siddharth Nagar, UP
+                </h6>
+                <h6 class="card-title fw-bold">Percentage:- 75.6</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <!-- Added shadow class here -->
+              <img
+                src="images/10thSchoolImg.jpg"
+                class="card-img-top"
+                alt="Image Not Found"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">HIGH-SCHOOL - (2016)</h5>
+                <h6 class="card-title fw-bold">
+                  Shaheede Azam Bhagat Singh Higher Secondary School, Bajha
+                  Bazar, Siddharth Nagar, UP
+                </h6>
+                <h6 class="card-title fw-bold">Percentage:- 84.5</h6>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <h1>footer</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id
-        assumenda cumque in, quaerat officiis maiores dolor tenetur corrupti
-        labore nesciunt recusandae soluta, corporis repellat. Praesentium quod
-        ut odio eos! Ut iste corrupti dicta facilis est veritatis neque a.
-        Laboriosam officia molestias quae expedita dolor dignissimos? Beatae
-        laboriosam dolorem obcaecati fugiat nesciunt sunt accusamus repellat
-        sapiente alias, dolores illum in. Tempora distinctio soluta ad,
-        explicabo quidem quia possimus asperiores quaerat, accusamus
-        perspiciatis iure rerum facere itaque fuga, architecto totam quam
-        aliquid recusandae sit quod libero nisi iste saepe! Quo, pariatur?
-      </p>
-    </footer>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section>
+      <div
+        id="skills-section"
+        class="skills"
+        style="padding-left: 100px; padding-right: 100px"
+      >
+        <h1 class="text-center mt-5 mb-4 shadow fw-bold">TECHNICAL SKILLS</h1>
+        <!-- Skill Bootstrap Brain Component -->
+        <section class="bsb-skill-1 bg-light">
+          <div class="container overflow-hidden">
+            <div class="row justify-content-center gy-3 gy-sm-4">
+              <!-- Each col-md-4 to make it 3 boxes per row on medium or larger devices -->
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow p-3">
+                  <h4 class="mb-2">C++</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 90%"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      90%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow-sm p-3">
+                  <h4 class="mb-2">OOP</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 90%"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      90%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow p-3">
+                  <h4 class="mb-2">DSA</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 70%"
+                      role="progressbar"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      70%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow-sm p-3">
+                  <h4 class="mb-2">HTML</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 95%"
+                      role="progressbar"
+                      aria-valuenow="95"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      95%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow p-3">
+                  <h4 class="mb-2">CSS</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 85%"
+                      role="progressbar"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      85%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow-sm p-3">
+                  <h4 class="mb-2">JavaScript</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      75%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow p-3">
+                  <h4 class="mb-2">React.js</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 60%"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      60%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow-sm p-3">
+                  <h4 class="mb-2">Bootstrap</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 65%"
+                      role="progressbar"
+                      aria-valuenow="65"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      65%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow p-3">
+                  <h4 class="mb-2">Node.js</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 65%"
+                      role="progressbar"
+                      aria-valuenow="65"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      65%
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow-sm p-3">
+                  <h4 class="mb-2">Express.Js</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 65%"
+                      role="progressbar"
+                      aria-valuenow="65"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      65%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow p-3">
+                  <h4 class="mb-2">MongoDB</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      75%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow-sm p-3">
+                  <h4 class="mb-2">My-Sql</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      75%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow p-3">
+                  <h4 class="mb-2">Dbms</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 70%"
+                      role="progressbar"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      70%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow-sm p-3">
+                  <h4 class="mb-2">Computer Network</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 65%"
+                      role="progressbar"
+                      aria-valuenow="65"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      65%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="bg-white rounded shadow p-3">
+                  <h4 class="mb-2">Git & GitHub</h4>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 55%"
+                      role="progressbar"
+                      aria-valuenow="55"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      55%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section>
+      <div
+        id="projects-section"
+        class="projects"
+        style="padding-left: 50px; padding-right: 50px"
+      >
+        <h1 class="text-center mt-5 mb-4 shadow fw-bold">PROJECTS</h1>
+
+        <div class="container-fluid px-4">
+          <!-- 50px padding on left and right -->
+          <div class="row mx-n4">
+            <!-- Counteract the padding of the container -->
+
+            <div class="col-12 col-md-6 px-4 py-3">
+              <!-- 50px padding between the columns -->
+              <div class="card h-100">
+                <!-- Ensure equal height of cards -->
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">
+                    Skyline Contractors (Feb 2023 - May 2023)
+                  </h5>
+                  <p class="card-text">
+                    Designed a full-stack web-based platform offering a range of
+                    home-related construction services. Using HTML, CSS,
+                    JavaScript, Node.js, Express, MongoDB.
+                  </p>
+                  <a href="#" class="btn btn-dark">GitHub Link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 px-4 py-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">
+                    Online Cab Booking (Aug 2022 - Nov 2022)
+                  </h5>
+                  <p class="card-text">
+                    Designed a web-based application that allows users to book
+                    cabs online. Using HTML, CSS, JavaScript, Node.js, Express,
+                    MongoDB.
+                  </p>
+                  <a href="#" class="btn btn-dark">GitHub Link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 px-4 py-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">
+                    Food Ordering (Feb 2022 - May 2022)
+                  </h5>
+                  <p class="card-text">
+                    Designed a website where customers can order food to their
+                    doorsteps. Using HTML, CSS, JavaScript, Node.js, Express,
+                    MongoDB.
+                  </p>
+                  <a href="#" class="btn btn-dark">GitHub Link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 px-4 py-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">
+                    NewsMonkey (Feb 2021 - May 2022)
+                  </h5>
+                  <p class="card-text">
+                    Designed a news aggregation website to keep users informed
+                    with the latest news. Using React, CSS, JavaScript, Node.js,
+                    Express, MongoDB.
+                  </p>
+                  <a href="#" class="btn btn-dark">GitHub Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+
+    <section>
+      <div
+        id="services-section"
+        class="services"
+        style="padding-left: 50px; padding-right: 50px"
+      >
+        <h1 class="text-center mt-5 mb-4 shadow fw-bold">SERVICES</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="images/webimg.jpg"
+                class="card-img-top"
+                alt="Responsive and modern web design"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title fw-bold">Web Development</h4>
+                <p class="card-text">
+                  Elevate your online presence with our expert web development
+                  services. We craft custom, high-performing websites that
+                  captivate audiences and drive results. Transform your digital
+                  footprint today.
+                </p>
+                <a href="#contact-section" class="btn btn-dark">Contact Me</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="images/contentImage.jpg"
+                class="card-img-top"
+                alt="SEO-optimized content writing"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title fw-bold">Content Writing</h4>
+                <p class="card-text">
+                  Enhance your brand's voice with our professional content
+                  writing services. We deliver compelling, SEO-optimized content
+                  tailored to engage your audience and boost your online
+                  visibility.
+                </p>
+                <a href="#contact-section" class="btn btn-dark">Contact Me</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="images/interiorImg.png"
+                class="card-img-top"
+                alt="Innovative interior design solutions"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title fw-bold">Interior Designing</h4>
+                <p class="card-text">
+                  Transform your space with our innovative interior design
+                  services. We specialize in creating beautiful, functional
+                  environments that reflect your personal style and enhance your
+                  everyday living.
+                </p>
+                <a href="#contact-section" class="btn btn-dark">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOGS SECTION HERE -->
+    <section>
+      <div
+        id="blogs-section"
+        class="blogs"
+        style="padding-left: 50px; padding-right: 50px"
+      >
+        <h1 class="text-center mt-5 mb-4 shadow fw-bold">BLOGS</h1>
+
+        <div class="container-fluid px-4">
+          <!-- 50px padding on left and right -->
+          <div class="row mx-n4">
+            <!-- Counteract the padding of the container -->
+            <div class="col-12 col-md-6 px-4 py-3">
+              <!-- 50px padding between the columns -->
+              <div class="card h-100">
+                <!-- Ensure equal height of cards -->
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Technical Blogs</h5>
+                  <p class="card-text">
+                    Explore cutting-edge advancements in technology and how
+                    they're shaping our future. Stay updated with the latest in
+                    AI, robotics, and software development.
+                  </p>
+                  <a href="tech.html" target="_blank" class="btn btn-dark"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 px-4 py-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Shayari</h5>
+                  <p class="card-text">
+                    Dive into the world of poetry with a collection of shayari
+                    that explores themes of love, life, and longing. Feel the
+                    emotion through words.
+                  </p>
+                  <a href="#" class="btn btn-dark">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 px-4 py-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Motivation Stories</h5>
+                  <p class="card-text">
+                    Get inspired with stories of perseverance and determination
+                    that showcase the human spirit's ability to overcome
+                    challenges.
+                  </p>
+                  <a href="#" class="btn btn-dark">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 px-4 py-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Thoughts</h5>
+                  <p class="card-text">
+                    Ponder on life's big questions with articles that offer
+                    insights and perspectives on various philosophical topics.
+                  </p>
+                  <a href="#" class="btn btn-dark">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION HERE  -->
+
+    <section>
+      <div
+        id="about-section"
+        class="about"
+        style="padding-left: 50px; padding-right: 50px"
+      >
+        <h1 class="text-center mt-5 mb-4 shadow fw-bold">ABOUT-ME</h1>
+
+        <p style="width: 50%; align-items: center">
+          Computer Science graduate passionate about Full-Stack Web Development
+          and .Proficient in a range of technologies including C++,React.js
+          ,Node.js,MongoDB and SQL. Can work well under pressure and make the
+          best of any situation. Passionate individual with great documentation,
+          interpersonal and communication skills. Self-motivated and proactive.
+        </p>
+      </div>
+    </section>
+
+    <!--Contact Section  -->
+
+    <section>
+      <div
+        class="footer"
+        id="contact-section"
+        style="padding-left: 50px; padding-right: 50px"
+      >
+        <h1 class="text-center mt-5 mb-4 shadow fw-bold">CONTACT</h1>
+
+        <div class="container">
+          <div class="row">
+            <!-- Contact Information -->
+            <div class="col-12 col-md-6 mb-3 mt-5">
+              <div class="widget">
+                <h3 class="widget-title mb-3 fw-bold">Address-</h3>
+                <h5>Chandigarh University</h5>
+                <h5>Gharuan, Mohali, Punjab</h5>
+                <h5>Pin-Code 140413</h5>
+                <h5>Phone No +91 752595xxxx</h5>
+
+                <h5>
+                  <a
+                    class="text-decoration-none"
+                    href="mailto:sandeepkumar15112000@gmail.com"
+                    >Email- sandeepkumar15112000@gmail.com</a
+                  >
+                </h5>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+
+            <div class="col-12 col-md-6 form-container">
+              <form id="contactForm">
+                <div class="mb-2">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="mb-2">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="mb-2">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    required
+                  />
+                </div>
+                <div class="mb-2">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="3"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-dark">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COPYRIGHTS SECTION  -->
+    <div class="copyright mt-5">
+      <div class="copyright-text">
+        © 2024 Copyright:
+        <a href="https://MyPortfolio.com/" target="_blank">SKPortfolio.com</a>
+      </div>
+    </div>
+
+    <!-- JAVA-SCRIPT -->
+    <script src="script.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>

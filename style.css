@@ -2,61 +2,168 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color:black;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10vh;
+}
 header {
-  background-color: rgb(10 28 40);
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
-}
-
-.logo {
-  color: #d16f2b;
-  font-size: 2.5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #fdfdfd;
-  border-radius: 100%;
-  padding: 8px;
+  width: 100%;
+  background-color: #08111e;
+  z-index: 1000;
+  height: 10vh;
+  padding: 0 80px;
 }
 
 .navbar {
-  height: 10vh;
-  width: 100%;
-  max-width: 1200px;
-  /* Adjust max-width as needed */
-  margin: 0 auto;
-  /* Center the navbar */
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
 
-.navbar ul {
-  list-style: none;
+.logo {
+  margin: 0;
+  padding: 6px;
+  color: rgb(246, 255, 0);
+  background-color: rgb(255 105 0);
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  gap: 3rem;
-  color: #fdfdfd;
-}
-
-.navbar ul li {
+  flex-wrap: wrap;
+  font-size: 16px;
   font-weight: bold;
 }
 
-.navbar ul li a {
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
   text-decoration: none;
-  color: #fdfdfd;
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  color: #a5a8ab;
 }
 
 .home {
-  height: calc(100vh - 10vh);
-  background-image: url(bg.jpg);
+  position: relative;
+  height: 100vh;
+  background-image: url(images/bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 70px 10% 0;
+}
+@media screen and (max-width: 1165px) {
+  .home {
+    flex-direction: column-reverse;
+    height: auto;
+  }
 }
 
+.my_image {
+  /* position: absolute; */
+  top: 30vh;
+  right: 15vh;
+  bottom: 0;
+  height: 80vh;
+}
+
+.my_image img {
+  height: 80%;
+}
+
+.home-content {
+  max-width: 600px;
+  color: white;
+}
+
+.home-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 5px 0 15px 0;
+}
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700px;
+  margin: -16px 0;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.home-content h3 span {
+  color: rgb(246, 255, 0);
+}
+.home-content p {
+  text-align: justify;
+  padding: 0 10px 0 0;
+}
+.home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgb(246, 255, 0);
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgb(246 255 0);
+  text-decoration: none;
+  margin: 30px 40px 30px 0;
+}
+
+.home-sci a:hover {
+  background: rgb(255, 152, 7);
+  box-shadow: 0 0 20px rgb(255 105 0);
+}
+
+.btn-box {
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 0px 22px 0 0;
+  background: rgb(255 105 0);
+  border-radius: 40px;
+  font-size: 16px;
+  color: rgb(246, 255, 0);
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-box:hover {
+  box-shadow: 0 0 5px rgb(238, 135, 61), 0 0 25px rgb(238, 135, 61),
+    0 0 50px rgb(238, 135, 61), 0 0 100px rgb(238, 135, 61),
+    0 0 200px rgb(238, 135, 61);
+}
+
+.copyright {
+  height: 8vh;
+  width: 100%;
+  background-color: #08111e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright-text {
+  color: #ffffff;
+}
+
+/* CSS FOR PROJECT SECTION  */
